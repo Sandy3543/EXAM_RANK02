@@ -29,7 +29,7 @@ int main()
     char *o = "o";
     if(o[1] == '\0' && a[1] == '\0')
     {
-        search_and_replace(str, 'a', 'o');
+        search_and_replace(str, a[0], o[0]);
     }
     else
         write(1, "\n", 1);
