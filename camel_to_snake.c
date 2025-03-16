@@ -3,7 +3,6 @@
 void    camel_to_snake(char *str)
 {
     int i = 0;
-    int snake = 1;
     while(str[i])
     {
         if(str[i] >= 'A' && str[i] <= 'Z')
