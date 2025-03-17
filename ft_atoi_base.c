@@ -13,8 +13,8 @@ int	ft_atoi_base(const char *str, int str_base)
         if(str[i] == '-')
         {
             sign = -1;
-            i++;
         }
+        i++;
     }
     while(str[i])
     {
