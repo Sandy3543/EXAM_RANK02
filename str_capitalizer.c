@@ -19,7 +19,7 @@ void    str_capitalizer(char *str)
         {
             new = 1;
         }
-        if (!(str[i] >= 'a' && str[i] <= 'z') && !(str[i] >= 'A' && str[i] <= 'Z') && !(str[i] >= '0' && str[i] <= '9') && str[i] != ' ')
+        if (!(str[i] >= 'a' && str[i] <= 'z') && !(str[i] >= 'A' && str[i] <= 'Z') && str[i] != ' ')
         {
             new = 0;
         }
